@@ -184,6 +184,8 @@ font-size: var(--font-size);
 .hero{
     padding: 188px 0px;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/icon/people-office.jpg);
     background-size: cover;
     background-color: rgba(46, 47, 66, 0.7);;
@@ -387,8 +389,8 @@ font-size: var(--font-size);
 }
 .customers-item:hover,
 .customers-item:focus {
-    border-color: #404BBF;
-    color: #4D5AE5;     
+    border: 1px solid #404BBF;
+    color: #404BBF;     
 }
 .customers-item:hover .customers-icon,
 .customers-item:focus .customers-icon {
